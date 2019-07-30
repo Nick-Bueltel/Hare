@@ -1,11 +1,11 @@
 import React from 'react'
-import Editor from './editor'
+import MyEditor from './editor'
 
 class MainPage extends React.Component{
     render(){
         return(
             <div>
-                <Editor/>
+                <MyEditor/>
 
             </div>
         )
