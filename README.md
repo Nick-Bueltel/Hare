@@ -1,12 +1,13 @@
 # Hare - The text editor that hates you
+![](https://i.imgur.com/OSljoo7.png)
 
-#Getting Started.
+# Getting Started.
  * Hare will be deployed as an electron app - fully cross platform of course
 
- #Target Audience 
+ # Target Audience 
  * Hare is for people who want a silly text editor to mess with. It will not be particularly useful for anything, other than frustration. 
 
-#Current MVP 
+# Current MVP 
 * the main purpose of Hare is to frustrate its users, the following features are considered MVP 
     * Save files in a random and un-usefull way such as 
         * Scrambled 
@@ -33,7 +34,7 @@
 * React.js
 * human spite 
 
-#Ice Box 
+# Ice Box 
 * further frustrating features.
     * awful formatting that changes on occasion without input from the user
     * mandatory saves, it will actually stop the user from typing until they save 
