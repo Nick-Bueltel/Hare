@@ -1,68 +1,42 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Hare - The text editor that hates you
 
-## Available Scripts
+#Getting Started.
+ * Hare will be deployed as an electron app - fully cross platform of course
 
-In the project directory, you can run:
+ #Target Audience 
+ * Hare is for people who want a silly text editor to mess with. It will not be particularly useful for anything, other than frustration. 
 
-### `npm start`
+#Current MVP 
+* the main purpose of Hare is to frustrate its users, the following features are considered MVP 
+    * Save files in a random and un-usefull way such as 
+        * Scrambled 
+        * all caps 
+        * reversed
+        * double every letter in the document
+        * Mirrored 
+    * replace common hotkeys with non user friendly ones
+        * command + z = delete this file 
+        * command + c = copy this text backwards
+        * command + v = paste copied text as copied
+        * command + a = select two random letters 
+        * command + x = cut selected text..... scrambled
+    * load files as normal
+    * "helpful" dialogue boxes that appear at random during typing, interrupting said typing. 
+        * did you know? that hare doesnt like you very much? 
+        * have you ever seen a man eat his own face? 
+        * when will you get the hint that hare is not for you?
+        * only real programmers use hare to write their code
+        * Hare will never sell your data to anyone, we promise. 
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+# Technologies Used
+* electron 
+* React.js
+* human spite 
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+#Ice Box 
+* further frustrating features.
+    * awful formatting that changes on occasion without input from the user
+    * mandatory saves, it will actually stop the user from typing until they save 
+    * 
+* a nice mode that actually works as a normal editor would, however this will take an extensive hotkey to enable. maybe the konami code.  
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
