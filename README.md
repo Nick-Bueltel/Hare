@@ -1,4 +1,5 @@
 # Hare - The text editor that hates you
+![](https://i.imgur.com/OSljoo7.png)
 
 # Getting Started.
  * Hare will be deployed as an electron app - fully cross platform of course
