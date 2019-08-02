@@ -17,11 +17,15 @@ class MyEditor extends React.Component {
     
     render() {
         return (
+          <div className="bg-dark text-light">
+
           <Editor
             editorState={this.state.editorState}
             onChange={this.onChange}
             plugins={this.state.plugins}
+            
           />
+          </div>
         );
       }
     }
